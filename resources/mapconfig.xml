@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="id1" class="MapBean">
+		<property name="employee">
+			<map>
+				<entry key="k1" value="100" />
+				<entry key="k2" value="101" />
+				<entry key="k3" value="102" />
+				<entry key="k4" value="103" />
+				<entry key="k5" value="104" />
+				<entry key="k6" value="105" />
+				<entry key="k7" value="106" />
+			</map>
+		</property>
+	</bean>
+</beans>

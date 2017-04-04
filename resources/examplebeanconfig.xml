@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- for examplebean2 use the autowire="byName" or autowire="byType" -->
+	<bean id="id1" class="ExampleBean3" autowire="constructor" />
+	<!-- instead of constructor we can use "autodetect" -->
+	<bean id="id2" class="ExampleBean2" />
+</beans>
